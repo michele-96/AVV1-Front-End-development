@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+
+        <title>Formulierpagina Front End Development</title>
+    </head>
+
+    <body>
+        <header>
+        </header>
+
+        <main>
+            <article>
+
+                <h1> Aanmelden </h1>
+                <p> Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten                         voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+                <p><em> CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam. </em></p>
+                <p> Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+                    Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+                    Voor vragen of opmerkingen kunt u <a href= "contact.html" >contact met ons opnemen.</a> </p>
+
+
+                <form>
+                    <fieldset>
+                        <legend>Contactgegevens</legend>
+                        <ul>
+                            <li>
+                                <label for= "name" >Naam</label>
+                                <input type= "text" id= "name" required />
+                            </li>
+                            <li>
+                                <label for= "company" >Bedrijf</label>
+                                <input type= "text" id="company" required />
+                            </li>
+                            <li>
+                                <label for= "address" >Adres</label>
+                                <input type= "text" id="address" required />
+                            </li>
+                            <li>
+                                <label for= "postalcode" >Postcode</label>
+                                <input type= "text" id="postalcode" required />
+                            </li>
+                            <li>
+                                <label for= "hometown" >Woonplaats</label>
+                                <input type= "text" id= "hometown" required />
+                            </li>
+                            <li>
+                                <label for= "phonenumber" >Telefoonnummer</label>
+                                <input type= "text" id="phonenumber" required />
+                            </li>
+                            <li>
+                                <label for= "emailadress" >E-mailadres</label>
+                                <input type= "email" id="emailadress" required />
+                            </li>
+                        </ul>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Ik wil mij aanmelden:</legend>
+                        <input type="radio" id="project">
+                        <label for="project">Voor een project</label>
+
+                        <input type="radio" id="stage">
+                        <label for="stage">Als stagebedrijf</label>
+                    </fieldset>
+                </form>
+
+                <fieldset>
+                    <legend>Aanmelden voor project of stage</legend>
+                    <section>
+                        <h2>Project</h2>
+                        <p> <label for="remarks">Opmerking</label>
+                            <input type="text" id="remarks" placeholder="Heeft u nog opmerkingen?">
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>Stage</h2>
+                        <p>Beschrijving stagebedrijf
+                            <label> bedrijfsnaam <input type="text"></label>
+                            <label for="company">Bedrijfsnaam</label>
+                            <input type="text" placeholder="Bedrijfsnaam">
+
+                            <label for="address">Adres</label>
+                            <input type="text" placeholder="Adres">
+
+                            <label for="postalcode">Postcode</label>
+                            <input type="text" placeholder="Postcode">
+
+                            <label for="location2">Plaats</label>
+                            <input type="text" id="location2" placeholder="Woonplaats">
+
+                            <label for="sector2">Sector</label>
+                            <input type="text" id="sector2" placeholder="Sector">
+
+                            <label for="corebusiness2">Core Business</label>
+                            <input type="text" id="corebusiness2" placeholder="Core Business">
+                        </p>
+                        <p>
+                            <label for="remarks">Opmerking</label>
+                            <input type="text" id="remarks2" placeholder="Heeft u nog opmerkingen?">
+                        </p>
+                    </section>
+
+                </fieldset>
+            </article>
+        </main>
+    </body>
+</html>
